@@ -60,6 +60,20 @@ form {
 form label {
     margin-top: 10px;
 }
+#pl{
+    margin-left: 0px;
+    color: red;
+    margin-top: 9px;
+    border: 1px solid red;
+    width: 200px;
+    padding: 2px;
+    transform: scale(0);
+
+}
+
+.pl{
+    transform: scale(1.2);
+}
 
 form input, form textarea {
     padding: 10px;
