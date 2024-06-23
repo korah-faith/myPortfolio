@@ -11,6 +11,9 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         formMessage.style.color = 'green';
     } else {
         formMessage.textContent = 'Please fill out all fields.';
+
+        
         formMessage.style.color = 'red';
+
     }
 });
